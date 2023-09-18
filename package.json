@@ -1,14 +1,16 @@
 {
-  "name": "dbconecom",
+  "name": "electrokart",
   "version": "1.0.0",
   "description": "",
+  "type": "module",
   "main": "index.js",
   "engines": {
     "node": "14.x"
   },
   "scripts": {
     "start": "node index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js"
   },
   "keywords": [],
   "author": "",
@@ -19,6 +21,7 @@
     "express": "^4.18.2",
     "mongoose": "^6.10.1",
     "node": "^20.4.0",
+    "razorpay": "^2.9.2",
     "require": "^2.4.20",
     "yarn": "^1.22.19"
   }
